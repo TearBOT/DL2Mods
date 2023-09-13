@@ -1,0 +1,28 @@
+sub main() 
+{
+	
+    Param("VALUABLE_ITEM_SELL_PRICE_MOD", 1.5);
+	
+	//weapon price multiplayer by color
+	ColorPriceMul(0,  1.00);//white
+	ColorPriceMul(1,  1.20);//green
+	ColorPriceMul(2,  1.30);//blue
+	ColorPriceMul(3,  1.50);//violet
+	ColorPriceMul(4,  1.70);//orange
+	ColorPriceMul(5,  1.85);//platinum
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
