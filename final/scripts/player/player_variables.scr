@@ -1831,7 +1831,7 @@ sub main()
     
     Param("HangDownwardInputTimeToDrop", "-1.0");
     Param("NonLethalTakedownDamage", "0.2");
-    Param("TakedownMaxAngle", "90");
+    Param("TakedownMaxAngle", "180");
 
     Param("LockpickLevel", "1");
     Param("LockpickBreakLevel", "0");

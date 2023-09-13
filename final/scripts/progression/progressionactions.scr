@@ -41,10 +41,10 @@ sub main()
     
     Action("DamageDealt", Combat, 100) { LP(0.25); }   
     Action("Block", Combat, 100) { LP(0.25); }
-	Action("AI_Killed", Combat, 2500) { LP(0.25); }   	// Values for this are definied in humanai.pre "XpForKill" and will overwrite this value but the action still needs to be defined
+	Action("AI_Killed", Combat, 500) { LP(0.25); }   	// Values for this are definied in humanai.pre "XpForKill" and will overwrite this value but the action still needs to be defined
     //Action("AI_KillAssist", Combat, 500) { LP(0.25); }	// Used when player damaged AI, but someone else got the kill      
-	//Action("Mutilate", Combat, 600) { LP(0.25); }                 
-    //Action("CombatSkill", Combat, 2000) { LP(0.25); } 	// Tackle, Push
+	//Action("Mutilate", Combat, 120) { LP(0.25); }                 
+    //Action("CombatSkill", Combat, 200) { LP(0.25); } 	// Tackle, Push
     Action("JumpAttack", Combat, 500); 		// Dropkick
     Action("RegularKickHit", Combat, 100) { LP(0.25); }
     Action("PerfectBlock", Combat, 200) { LP(0.25); }
@@ -98,9 +98,9 @@ sub main()
     //Action("LockPicked", Traversal, 100) { LP(0.25); }
     //Action("ItemPickedUp", Traversal, 10) { LP(0.25); }
     
-    Action("Takedown", Combat, 250) { LP(0.25); }
-    Action("TakedownSilent", Combat, 250) { LP(0.25); }
-    Action("TakedownHanging", Combat, 500) { LP(0.25); }
+    Action("Takedown", Combat, 500) { LP(0.25); }
+    Action("TakedownSilent", Combat, 500) { LP(0.25); }
+    Action("TakedownHanging", Combat, 750) { LP(0.25); }
     Action("DeathFromAbove", Combat, 250) { LP(0.25); }
     Action("DeathFromAboveSilent", Combat, 250) { LP(0.25); }
 
