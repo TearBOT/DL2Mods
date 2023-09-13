@@ -1,21 +1,21 @@
 sub main() 
 {
 	
-    Param("VALUABLE_ITEM_SELL_PRICE_MOD", 1.00);
-	Param("RANGED_WEAPON_SELL_PRICE_MOD", 0.001);
-    Param("MELEE_WEAPON_SELL_PRICE_MOD",  0.001);
-	Param("COMMON_ITEM_SELL_PRICE_MOD",   0.001);
-    Param("COLOR_ITEM_SELL_PRICE_MOD",    0.001);
+    Param("VALUABLE_ITEM_SELL_PRICE_MOD", 0.5);			//1.0
+	Param("RANGED_WEAPON_SELL_PRICE_MOD", 0.2);
+    Param("MELEE_WEAPON_SELL_PRICE_MOD",  0.2);
+	Param("COMMON_ITEM_SELL_PRICE_MOD",   0.1);
+    Param("COLOR_ITEM_SELL_PRICE_MOD",    0.1);
 
-    ItemTypeSellPriceMod("Item_OutfitPart", 0.00);   // demo by slimak
+    ItemTypeSellPriceMod("Item_OutfitPart", 0.4);   // demo by slimak
 
 	//weapon price multiplayer by color
 	ColorPriceMul(0,  0.80);//white
-	ColorPriceMul(1,  1.20);//green
-	ColorPriceMul(2,  1.50);//blue
-	ColorPriceMul(3,  2.20);//violet
-	ColorPriceMul(4,  3.00);//orange
-	ColorPriceMul(5,  5.00);//platinum
+	ColorPriceMul(1,  1.10);//green
+	ColorPriceMul(2,  1.20);//blue
+	ColorPriceMul(3,  1.30);//violet
+	ColorPriceMul(4,  1.50);//orange
+	ColorPriceMul(5,  1.75);//platinum
 }
 
 

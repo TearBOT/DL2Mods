@@ -126,7 +126,7 @@ sub main()
     Param("WQ_Rot_Duration", "25.0");
     Param("HitReactionSpeechProb", "0.5");
     Param("PursuitBreakerBlastDamage", "PursuitBreakerBlast");
-    Param("NightXPBonus", "1.0"); //bonus xp to all xp actions when performed during night (eg 0.2 -> +20%)
+    Param("NightXPBonus", "50.0"); //bonus xp to all xp actions when performed during night (eg 0.2 -> +20%)
     // Status Night Expieriance awards and requirements
     Param("NightExpRequiredDistance", "2.0");
     Param("NightExpRequiredActions", "0.0");
@@ -135,7 +135,7 @@ sub main()
     Param("NightExpActionsReward", "1.0");
     Param("NightExpLootedReward", "5.0");
     Param("NightExpUnspotedReward", "1.7");
-    Param("NightExpKillReward", "20");
+    Param("NightExpKillReward", "200");
     Param("NightExpPbActivatedReward", "50.0");
 
     Param("PickupTriggerCooldown", "-1.0");
